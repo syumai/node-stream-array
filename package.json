@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mimetnet/node-stream-array"
+    "url": "https://github.com/syumai/stream-array-es2015"
   },
   "bugs": {
-    "url": "https://github.com/mimetnet/node-stream-array/issues"
+    "url": "https://github.com/syumai/stream-array-es2015/issues"
   },
-  "homepage": "https://github.com/mimetnet/node-stream-array",
+  "homepage": "https://github.com/syumai/stream-array-es2015",
   "keywords": ["array", "readable", "stream", "pipe"],
   "author": "Matthew I. Metnetsky <matthew@cowarthill.com>",
   "license": "MIT",
