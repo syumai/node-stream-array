@@ -1,5 +1,5 @@
 {
-  "name": "stream-array-es2015",
+  "name": "stream-array-es6",
   "version": "1.0.0",
   "description": "Pipe an Array through Node.js streams",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/syumai/stream-array-es2015"
+    "url": "https://github.com/syumai/stream-array-es6"
   },
   "bugs": {
-    "url": "https://github.com/syumai/stream-array-es2015/issues"
+    "url": "https://github.com/syumai/stream-array-es6/issues"
   },
-  "homepage": "https://github.com/syumai/stream-array-es2015",
+  "homepage": "https://github.com/syumai/stream-array-es6",
   "keywords": ["array", "readable", "stream", "pipe"],
   "author": "Matthew I. Metnetsky <matthew@cowarthill.com>",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# stream-array-es2015
+# stream-array-es6
 
 Pipe an Array through Node.js [Streams][12]. This is rather useful for testing
 other streams.
@@ -11,7 +11,7 @@ other streams.
 ## Usage
 
 ```js
-const streamify = require('stream-array-es2015'),
+const streamify = require('stream-array-es6'),
   os = require('os');
 
 streamify(['1', '2', '3', os.EOL]).pipe(process.stdout);
@@ -25,7 +25,7 @@ The result of [require][13] is a 'function()' that when invoked, will return a
 [Readable][11] [Stream][12].
 
 ```js
-const streamify = require('stream-array-es2015');
+const streamify = require('stream-array-es6');
 ```
 
 The source array can contain any type as it is assumed that the receiving
@@ -50,17 +50,17 @@ readable(['1', '2', '3', os.EOL]).pipe(process.stdout);
 ## Install
 
 ```sh
-npm install stream-array-es2015
+npm install stream-array-es6
 ```
 
-[1]: https://badge.fury.io/js/stream-array-es2015.svg
-[2]: https://badge.fury.io/js/stream-array-es2015
-[3]: https://api.travis-ci.org/syumai/stream-array-es2015.svg
-[4]: https://travis-ci.org/syumai/stream-array-es2015
-[5]: https://david-dm.org/syumai/stream-array-es2015.svg
-[6]: https://david-dm.org/syumai/stream-array-es2015
-[7]: https://david-dm.org/syumai/stream-array-es2015/dev-status.svg?#info=devDependencies
-[8]: https://david-dm.org/syumai/stream-array-es2015/#info=devDependencies
+[1]: https://badge.fury.io/js/stream-array-es6.svg
+[2]: https://badge.fury.io/js/stream-array-es6
+[3]: https://api.travis-ci.org/syumai/stream-array-es6.svg
+[4]: https://travis-ci.org/syumai/stream-array-es6
+[5]: https://david-dm.org/syumai/stream-array-es6.svg
+[6]: https://david-dm.org/syumai/stream-array-es6
+[7]: https://david-dm.org/syumai/stream-array-es6/dev-status.svg?#info=devDependencies
+[8]: https://david-dm.org/syumai/stream-array-es6/#info=devDependencies
 [11]: http://nodejs.org/api/stream.html#stream_class_stream_readable
 [12]: http://nodejs.org/api/stream.html#stream_stream
 [13]: http://nodejs.org/api/globals.html#globals_require
@@ -71,4 +71,4 @@ npm install stream-array-es2015
 
 ## License
 
-[MIT License](https://github.com/syumai/stream-array-es2015/blob/master/LICENSE)
+[MIT License](https://github.com/syumai/stream-array-es6/blob/master/LICENSE)
