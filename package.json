@@ -1,6 +1,6 @@
 {
   "name": "stream-array-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pipe an Array through Node.js streams",
   "scripts": {
     "test": "./node_modules/.bin/tape ./test/*",

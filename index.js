@@ -12,7 +12,7 @@ class StreamArray extends Readable {
   constructor(list) {
     if (!Array.isArray(list))
       throw new TypeError('First argument must be an Array');
-    super();
+    super({ objectMode: true });
     this._i = 0;
     this._l = list.length;
     this._list = list;
