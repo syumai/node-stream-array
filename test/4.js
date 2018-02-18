@@ -1,15 +1,16 @@
-var test = require('tape')
-    , streamify = require('..')
-    , concat = require('concat-stream')
-;
+const test = require('tape'),
+  streamify = require('..'),
+  concat = require('concat-stream');
 
-test('immutable', function(t) {
-    var s, a = [1, 2, 3, 4, 5];
+test('immutable', t => {
+  const a = ['1', '2', '3', '4', '5'].map(str => Buffer.from(str));
 
-    s = streamify(a);
-    s.pipe(concat({encoding: 'object'}, function(res) {
-        t.equal(1, arguments.length, 'concat returns 1 arg');
-        t.deepEqual(a, res, 'result array matches input');
-        t.end();
-    }));
+  const s = streamify(a);
+  s.pipe(
+    concat({ encoding: 'object' }, function(res) {
+      t.equal(1, arguments.length, 'concat returns 1 arg');
+      t.deepEqual(a, res, 'result array matches input');
+      t.end();
+    })
+  );
 });
