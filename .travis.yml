@@ -1,36 +1,16 @@
-sudo: false
-
 language: node_js
-
+node_js:
+  - lts/*
 notifications:
   email: false
-
-before_install:
-  - npm install -g npm@2
-  - npm install -g npm
-  - '[ "${TRAVIS_NODE_VERSION}" == "0.8" -o "${TRAVIS_NODE_VERSION}" == "0.10" ] || npm install -g covert'
-
 matrix:
   fast_finish: true
   include:
-    - node_js: '0.8'
-      env: TASK=test
-    - node_js: '0.10'
-      env: TASK=test
-    - node_js: '0.12'
-      env: TASK=coverage
-    - node_js: '1'
-      env: TASK=coverage
-    - node_js: '2'
-      env: TASK=coverage
-    - node_js: '3'
-      env: TASK=coverage
     - node_js: '4'
-      env: TASK=coverage
     - node_js: '5'
-      env: TASK=coverage
     - node_js: '6'
-      env: TASK=coverage
+    - node_js: '7'
+    - node_js: '8'
+    - node_js: '9'
 
-script: "npm run $TASK"
-
+script: "npm run test"

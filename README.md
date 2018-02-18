@@ -7,9 +7,6 @@ other streams.
 [![build status][3]][4]
 [![dependencies][5]][6]
 [![devDependencies][7]][8]
-[![Inch CI][16]][17]
-
-[//]: [![testling][9]][10]
 
 ## Usage
 
@@ -56,16 +53,14 @@ readable(['1', '2', '3', os.EOL]).pipe(process.stdout);
 npm install stream-array-es2015
 ```
 
-[1]: https://badge.fury.io/js/stream-array.svg
-[2]: https://badge.fury.io/js/stream-array
-[3]: https://api.travis-ci.org/mimetnet/node-stream-array.svg
-[4]: https://travis-ci.org/mimetnet/node-stream-array
-[5]: https://david-dm.org/mimetnet/node-stream-array.svg
-[6]: https://david-dm.org/mimetnet/node-stream-array
-[7]: https://david-dm.org/mimetnet/node-stream-array/dev-status.svg?#info=devDependencies
-[8]: https://david-dm.org/mimetnet/node-stream-array/#info=devDependencies
-[//]: https://ci.testling.com/mimetnet/node-stream-array.png
-[//]: https://ci.testling.com/mimetnet/node-stream-array
+[1]: https://badge.fury.io/js/stream-array-es2015.svg
+[2]: https://badge.fury.io/js/stream-array-es2015
+[3]: https://api.travis-ci.org/syumai/stream-array-es2015.svg
+[4]: https://travis-ci.org/syumai/stream-array-es2015
+[5]: https://david-dm.org/syumai/stream-array-es2015.svg
+[6]: https://david-dm.org/syumai/stream-array-es2015
+[7]: https://david-dm.org/syumai/stream-array-es2015/dev-status.svg?#info=devDependencies
+[8]: https://david-dm.org/syumai/stream-array-es2015/#info=devDependencies
 [11]: http://nodejs.org/api/stream.html#stream_class_stream_readable
 [12]: http://nodejs.org/api/stream.html#stream_stream
 [13]: http://nodejs.org/api/globals.html#globals_require
